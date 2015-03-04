@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DAE3AC71A3FAAA300F4A07C /* BNRFireView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE3AC61A3FAAA300F4A07C /* BNRFireView.m */; };
+		5DAE3ACA1A3FBA2200F4A07C /* BNRStaircaseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE3AC91A3FBA2200F4A07C /* BNRStaircaseLayer.m */; };
+		5DAE3ACD1A3FBA4700F4A07C /* BNRStaircaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE3ACC1A3FBA4700F4A07C /* BNRStaircaseView.m */; };
+		7D4496DF18A5353A0009E822 /* graynoise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D4496DE18A5353A0009E822 /* graynoise.jpg */; };
+		CE21D02F181B5E8400097407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE21D02E181B5E8400097407 /* Foundation.framework */; };
+		CE21D031181B5E8400097407 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE21D030181B5E8400097407 /* CoreGraphics.framework */; };
+		CE21D033181B5E8400097407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE21D032181B5E8400097407 /* UIKit.framework */; };
+		CE21D039181B5E8400097407 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE21D037181B5E8400097407 /* InfoPlist.strings */; };
+		CE21D03B181B5E8400097407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21D03A181B5E8400097407 /* main.m */; };
+		CE21D03F181B5E8400097407 /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21D03E181B5E8400097407 /* BNRAppDelegate.m */; };
+		CE21D042181B5E8400097407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE21D040181B5E8400097407 /* Main.storyboard */; };
+		CE21D045181B5E8400097407 /* BNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21D044181B5E8400097407 /* BNRViewController.m */; };
+		CE21D047181B5E8400097407 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE21D046181B5E8400097407 /* Images.xcassets */; };
+		CE21D04E181B5E8400097407 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE21D04D181B5E8400097407 /* XCTest.framework */; };
+		CE21D04F181B5E8400097407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE21D02E181B5E8400097407 /* Foundation.framework */; };
+		CE21D050181B5E8400097407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE21D032181B5E8400097407 /* UIKit.framework */; };
+		CE21D058181B5E8400097407 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE21D056181B5E8400097407 /* InfoPlist.strings */; };
+		CE21D05A181B5E8400097407 /* FeelTheBurnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21D059181B5E8400097407 /* FeelTheBurnTests.m */; };
+		CEAF922D181FDAA300C9E726 /* flameParticle.png in Resources */ = {isa = PBXBuildFile; fileRef = CEAF922C181FDAA300C9E726 /* flameParticle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE21D051181B5E8400097407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE21D023181B5E8400097407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE21D02A181B5E8400097407;
+			remoteInfo = FeelTheBurn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DAE3AC51A3FAAA300F4A07C /* BNRFireView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRFireView.h; path = ../BNRFireView.h; sourceTree = "<group>"; };
+		5DAE3AC61A3FAAA300F4A07C /* BNRFireView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRFireView.m; path = ../BNRFireView.m; sourceTree = "<group>"; };
+		5DAE3AC81A3FBA2200F4A07C /* BNRStaircaseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRStaircaseLayer.h; sourceTree = "<group>"; };
+		5DAE3AC91A3FBA2200F4A07C /* BNRStaircaseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRStaircaseLayer.m; sourceTree = "<group>"; };
+		5DAE3ACB1A3FBA4700F4A07C /* BNRStaircaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRStaircaseView.h; path = ../BNRStaircaseView.h; sourceTree = "<group>"; };
+		5DAE3ACC1A3FBA4700F4A07C /* BNRStaircaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRStaircaseView.m; path = ../BNRStaircaseView.m; sourceTree = "<group>"; };
+		7D4496DE18A5353A0009E822 /* graynoise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = graynoise.jpg; sourceTree = "<group>"; };
+		CE21D02B181B5E8400097407 /* FeelTheBurn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeelTheBurn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE21D02E181B5E8400097407 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE21D030181B5E8400097407 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE21D032181B5E8400097407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE21D036181B5E8400097407 /* FeelTheBurn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeelTheBurn-Info.plist"; sourceTree = "<group>"; };
+		CE21D038181B5E8400097407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE21D03A181B5E8400097407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE21D03C181B5E8400097407 /* FeelTheBurn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FeelTheBurn-Prefix.pch"; sourceTree = "<group>"; };
+		CE21D03D181B5E8400097407 /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		CE21D03E181B5E8400097407 /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		CE21D041181B5E8400097407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE21D043181B5E8400097407 /* BNRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRViewController.h; sourceTree = "<group>"; };
+		CE21D044181B5E8400097407 /* BNRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRViewController.m; sourceTree = "<group>"; };
+		CE21D046181B5E8400097407 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE21D04C181B5E8400097407 /* FeelTheBurnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelTheBurnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE21D04D181B5E8400097407 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE21D055181B5E8400097407 /* FeelTheBurnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeelTheBurnTests-Info.plist"; sourceTree = "<group>"; };
+		CE21D057181B5E8400097407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE21D059181B5E8400097407 /* FeelTheBurnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeelTheBurnTests.m; sourceTree = "<group>"; };
+		CEAF922C181FDAA300C9E726 /* flameParticle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flameParticle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE21D028181B5E8400097407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE21D031181B5E8400097407 /* CoreGraphics.framework in Frameworks */,
+				CE21D033181B5E8400097407 /* UIKit.framework in Frameworks */,
+				CE21D02F181B5E8400097407 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE21D049181B5E8400097407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE21D04E181B5E8400097407 /* XCTest.framework in Frameworks */,
+				CE21D050181B5E8400097407 /* UIKit.framework in Frameworks */,
+				CE21D04F181B5E8400097407 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE21D022181B5E8400097407 = {
+			isa = PBXGroup;
+			children = (
+				CE21D034181B5E8400097407 /* FeelTheBurn */,
+				CE21D053181B5E8400097407 /* FeelTheBurnTests */,
+				CE21D02D181B5E8400097407 /* Frameworks */,
+				CE21D02C181B5E8400097407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE21D02C181B5E8400097407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE21D02B181B5E8400097407 /* FeelTheBurn.app */,
+				CE21D04C181B5E8400097407 /* FeelTheBurnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE21D02D181B5E8400097407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE21D02E181B5E8400097407 /* Foundation.framework */,
+				CE21D030181B5E8400097407 /* CoreGraphics.framework */,
+				CE21D032181B5E8400097407 /* UIKit.framework */,
+				CE21D04D181B5E8400097407 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE21D034181B5E8400097407 /* FeelTheBurn */ = {
+			isa = PBXGroup;
+			children = (
+				5DAE3ACB1A3FBA4700F4A07C /* BNRStaircaseView.h */,
+				5DAE3ACC1A3FBA4700F4A07C /* BNRStaircaseView.m */,
+				5DAE3AC81A3FBA2200F4A07C /* BNRStaircaseLayer.h */,
+				5DAE3AC91A3FBA2200F4A07C /* BNRStaircaseLayer.m */,
+				5DAE3AC51A3FAAA300F4A07C /* BNRFireView.h */,
+				5DAE3AC61A3FAAA300F4A07C /* BNRFireView.m */,
+				CE21D03D181B5E8400097407 /* BNRAppDelegate.h */,
+				CE21D03E181B5E8400097407 /* BNRAppDelegate.m */,
+				CE21D040181B5E8400097407 /* Main.storyboard */,
+				CE21D043181B5E8400097407 /* BNRViewController.h */,
+				CE21D044181B5E8400097407 /* BNRViewController.m */,
+				CE21D046181B5E8400097407 /* Images.xcassets */,
+				7D4496DE18A5353A0009E822 /* graynoise.jpg */,
+				CEAF922C181FDAA300C9E726 /* flameParticle.png */,
+				CE21D035181B5E8400097407 /* Supporting Files */,
+			);
+			path = FeelTheBurn;
+			sourceTree = "<group>";
+		};
+		CE21D035181B5E8400097407 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE21D036181B5E8400097407 /* FeelTheBurn-Info.plist */,
+				CE21D037181B5E8400097407 /* InfoPlist.strings */,
+				CE21D03A181B5E8400097407 /* main.m */,
+				CE21D03C181B5E8400097407 /* FeelTheBurn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE21D053181B5E8400097407 /* FeelTheBurnTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE21D059181B5E8400097407 /* FeelTheBurnTests.m */,
+				CE21D054181B5E8400097407 /* Supporting Files */,
+			);
+			path = FeelTheBurnTests;
+			sourceTree = "<group>";
+		};
+		CE21D054181B5E8400097407 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE21D055181B5E8400097407 /* FeelTheBurnTests-Info.plist */,
+				CE21D056181B5E8400097407 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE21D02A181B5E8400097407 /* FeelTheBurn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE21D05D181B5E8400097407 /* Build configuration list for PBXNativeTarget "FeelTheBurn" */;
+			buildPhases = (
+				CE21D027181B5E8400097407 /* Sources */,
+				CE21D028181B5E8400097407 /* Frameworks */,
+				CE21D029181B5E8400097407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeelTheBurn;
+			productName = FeelTheBurn;
+			productReference = CE21D02B181B5E8400097407 /* FeelTheBurn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE21D04B181B5E8400097407 /* FeelTheBurnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE21D060181B5E8400097407 /* Build configuration list for PBXNativeTarget "FeelTheBurnTests" */;
+			buildPhases = (
+				CE21D048181B5E8400097407 /* Sources */,
+				CE21D049181B5E8400097407 /* Frameworks */,
+				CE21D04A181B5E8400097407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE21D052181B5E8400097407 /* PBXTargetDependency */,
+			);
+			name = FeelTheBurnTests;
+			productName = FeelTheBurnTests;
+			productReference = CE21D04C181B5E8400097407 /* FeelTheBurnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE21D023181B5E8400097407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jonathan Blocksom";
+				TargetAttributes = {
+					CE21D04B181B5E8400097407 = {
+						TestTargetID = CE21D02A181B5E8400097407;
+					};
+				};
+			};
+			buildConfigurationList = CE21D026181B5E8400097407 /* Build configuration list for PBXProject "FeelTheBurn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE21D022181B5E8400097407;
+			productRefGroup = CE21D02C181B5E8400097407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE21D02A181B5E8400097407 /* FeelTheBurn */,
+				CE21D04B181B5E8400097407 /* FeelTheBurnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE21D029181B5E8400097407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE21D047181B5E8400097407 /* Images.xcassets in Resources */,
+				CE21D039181B5E8400097407 /* InfoPlist.strings in Resources */,
+				CE21D042181B5E8400097407 /* Main.storyboard in Resources */,
+				CEAF922D181FDAA300C9E726 /* flameParticle.png in Resources */,
+				7D4496DF18A5353A0009E822 /* graynoise.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE21D04A181B5E8400097407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE21D058181B5E8400097407 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE21D027181B5E8400097407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE21D03B181B5E8400097407 /* main.m in Sources */,
+				5DAE3ACD1A3FBA4700F4A07C /* BNRStaircaseView.m in Sources */,
+				CE21D03F181B5E8400097407 /* BNRAppDelegate.m in Sources */,
+				5DAE3ACA1A3FBA2200F4A07C /* BNRStaircaseLayer.m in Sources */,
+				CE21D045181B5E8400097407 /* BNRViewController.m in Sources */,
+				5DAE3AC71A3FAAA300F4A07C /* BNRFireView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE21D048181B5E8400097407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE21D05A181B5E8400097407 /* FeelTheBurnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE21D052181B5E8400097407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE21D02A181B5E8400097407 /* FeelTheBurn */;
+			targetProxy = CE21D051181B5E8400097407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE21D037181B5E8400097407 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE21D038181B5E8400097407 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE21D040181B5E8400097407 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE21D041181B5E8400097407 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE21D056181B5E8400097407 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE21D057181B5E8400097407 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE21D05B181B5E8400097407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE21D05C181B5E8400097407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE21D05E181B5E8400097407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeelTheBurn/FeelTheBurn-Prefix.pch";
+				INFOPLIST_FILE = "FeelTheBurn/FeelTheBurn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE21D05F181B5E8400097407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeelTheBurn/FeelTheBurn-Prefix.pch";
+				INFOPLIST_FILE = "FeelTheBurn/FeelTheBurn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE21D061181B5E8400097407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FeelTheBurn.app/FeelTheBurn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeelTheBurn/FeelTheBurn-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FeelTheBurnTests/FeelTheBurnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE21D062181B5E8400097407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FeelTheBurn.app/FeelTheBurn";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeelTheBurn/FeelTheBurn-Prefix.pch";
+				INFOPLIST_FILE = "FeelTheBurnTests/FeelTheBurnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE21D026181B5E8400097407 /* Build configuration list for PBXProject "FeelTheBurn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE21D05B181B5E8400097407 /* Debug */,
+				CE21D05C181B5E8400097407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE21D05D181B5E8400097407 /* Build configuration list for PBXNativeTarget "FeelTheBurn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE21D05E181B5E8400097407 /* Debug */,
+				CE21D05F181B5E8400097407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE21D060181B5E8400097407 /* Build configuration list for PBXNativeTarget "FeelTheBurnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE21D061181B5E8400097407 /* Debug */,
+				CE21D062181B5E8400097407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE21D023181B5E8400097407 /* Project object */;
+}

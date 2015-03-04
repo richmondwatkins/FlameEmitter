@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="BNRViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CdS-XR-mR2"/>
+                        <viewControllerLayoutGuide type="bottom" id="qgn-ni-Xja"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GC0-sA-lJB">
+                                <rect key="frame" x="74" y="287" width="172" height="40"/>
+                                <color key="backgroundColor" red="0.99607849120000003" green="0.80000007149999997" blue="0.18431372939999999" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Start Count">
+                                    <color key="titleColor" red="0.34509804840000002" green="0.33725491169999999" blue="0.83921575550000005" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startCounterTouch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Jum-wd-Tvu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFu-1S-FRj">
+                                <rect key="frame" x="74" y="335" width="172" height="40"/>
+                                <color key="backgroundColor" red="0.99607849120000003" green="0.80000007149999997" blue="0.18431372939999999" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Reset Count">
+                                    <color key="titleColor" red="0.34509804840000002" green="0.33725491169999999" blue="0.83921575550000005" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="00000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMM-Sb-z6c">
+                                <rect key="frame" x="74" y="193" width="172" height="71"/>
+                                <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="44"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="steps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHz-86-zeB">
+                                <rect key="frame" x="74" y="238" width="172" height="41"/>
+                                <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5nB-Pf-pj2" customClass="BNRFireView">
+                                <rect key="frame" x="0.0" y="383" width="320" height="185"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KTs-OB-2zo" customClass="BNRStaircaseView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="185"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CFu-1S-FRj" firstAttribute="top" secondItem="GC0-sA-lJB" secondAttribute="bottom" constant="8" id="264-q8-Iui"/>
+                            <constraint firstItem="qgn-ni-Xja" firstAttribute="top" secondItem="5nB-Pf-pj2" secondAttribute="bottom" id="B5K-SL-uY1"/>
+                            <constraint firstItem="5nB-Pf-pj2" firstAttribute="top" secondItem="CFu-1S-FRj" secondAttribute="bottom" constant="8" id="QAQ-SU-2BE"/>
+                            <constraint firstItem="qHz-86-zeB" firstAttribute="top" secondItem="JMM-Sb-z6c" secondAttribute="bottom" constant="-26" id="SC9-PK-oG0"/>
+                            <constraint firstItem="GC0-sA-lJB" firstAttribute="top" secondItem="qHz-86-zeB" secondAttribute="bottom" constant="8" id="UMl-yi-Q6c"/>
+                            <constraint firstItem="CdS-XR-mR2" firstAttribute="top" secondItem="KTs-OB-2zo" secondAttribute="bottom" constant="-165" id="abZ-6G-psd"/>
+                            <constraint firstItem="JMM-Sb-z6c" firstAttribute="top" secondItem="KTs-OB-2zo" secondAttribute="bottom" priority="720" constant="8" id="zmp-DN-7II"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fireView" destination="5nB-Pf-pj2" id="PYq-6v-bTG"/>
+                        <outlet property="numStepsLabel" destination="JMM-Sb-z6c" id="DqM-DZ-fsd"/>
+                        <outlet property="resetButton" destination="CFu-1S-FRj" id="ay9-nu-vrS"/>
+                        <outlet property="stairView" destination="KTs-OB-2zo" id="avM-d7-ZZ6"/>
+                        <outlet property="startButton" destination="GC0-sA-lJB" id="fdR-yC-Lf3"/>
+                        <outlet property="stepsLabel" destination="qHz-86-zeB" id="xAc-Ms-EcA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
